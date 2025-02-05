@@ -1,1 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=Teko:wght@365&display=swap');
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: relative; /* Garante que os elementos dentro possam ser posicionados corretamente */
+}
+
+#meu-cabeçalho {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 10px; /* Move quase para a borda */
+  top: 50%;
+  transform: translateY(-50%); /* Centraliza verticalmente */
+}
+
+  
+
+
+
+
+nav ul {
+  display: flex; /* Alinha os itens do menu em linha */
+  list-style: none; /* Remove os marcadores da lista */
+  gap: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Fonte padrão do corpo */
+}
+
+/* Estilo do cabeçalho */
+.cabecalho {
+  height: 80px; /* Definindo uma altura fixa para o cabeçalho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px; /* Removendo padding extra nas laterais */
+  background-color: rgba(53, 15, 223, 0.842); /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+}
+
+#meu-cabeçalho {
+  font-family: 'Sniglet', sans-serif; /* Fonte para o cabeçalho */
+  font-size: 3rem; /* Aumentando o tamanho do texto para 2rem (pode ajustar conforme necessário) */
+  margin: 0; /* Remover margem padrão */
+}
+
+#corpo {
+  background-color: rgba(0, 0, 0, 0.532);
+}
+
+
+/* Estilo do conteúdo */
+.conteudo {
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Sniglet', sans-serif;
+  font-size: 2.5rem; /* Ajuste o tamanho do título */
+}
+
+#bio1 {
+  background-color: #fff;
+  border: 8px solid #fff ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+
+  position: relative;
+  left: 30px;         /* posicionamento - move div inteira */
+  padding-left: 10px; /* espaçamento interno - move o conteúdo */
+  padding-bottom: 20px;
+
+  top: 30px;
+}
+ 
+
+      
+#bio1 h1 {
+  color: #333;
+}
+         
+#bio1 p {
+   color: #666;
+   line-height: 1.6;
+  }
+
+#bio2 {
+  background-color:#fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+
+  margin-top: 50px; /* espaçamento entre as divs */
+  position: relative;
+  left: 30px;
+  padding-left: 10px;
+
+  
+}
+
+
+
+#praia {
+  width: 300px;
+  border-radius: 20px;
+
+  display: block;
+  margin: 0 auto;
+
+  margin-top: 45px; /* distância do topo */
+  margin-left: 100px; /* distância da esquerda */
+
+}
+
+
+/* Estilo do rodapé */
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: rgba(53, 15, 223, 0.842);
+  color: #fff;
+}
+
+#pr {
+  font-family: 'Sniglet', sans-serif;
+  font-size: 1rem; /* Definindo o tamanho da fonte do rodapé */
+}
 
